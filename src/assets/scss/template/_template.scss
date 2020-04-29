@@ -1,0 +1,62 @@
+// These are the styles to make some of the templates look extra nice.
+// Feel free to remove these styles for production!
+
+
+span.logo {
+  font-size: 100px;
+  font-weight: lighter;
+  color: $white;
+  line-height: 1;
+}
+h1 {
+  line-height: 1.1;
+}
+
+
+
+hr {
+  margin: 40px auto 60px;
+  border-top: 4px solid $black;
+  border-bottom: 0;
+}
+
+.header {
+  background-color: $black;
+
+  h1, p, h6 {
+    color: $white;
+  }
+  hr {
+    border-top: 4px solid #fff;
+    margin: 40px auto;
+  }
+}
+
+p.lead {
+  hyphens: none;
+}
+
+p.caption {
+  font-size: 14px;
+  color: $dark-gray;
+  margin-bottom: 20px;
+
+}
+
+img {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+blockquote {
+  border: 1px solid $black;
+  padding: 20px;
+  margin: 0;
+  p {
+    margin-bottom: 0;
+    font-family: 'Times New Roman', Times, Georgia, serif;
+    font-style: italic;
+    font-size: 1.25em;
+    hyphens: none;
+  }
+}
